@@ -1,0 +1,20 @@
+.List .Item{
+   
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    border: 1px solid #E7717D;
+    box-shadow:0px 0px 6px #E7717D; 
+    background-color: #E7717D;
+    padding: 0.5em;
+}
+
+.List{
+     min-height: 58vh;
+}
+
+.List .Item button{
+    background-color: black;
+    color:white;
+    padding: 0.2em;
+}

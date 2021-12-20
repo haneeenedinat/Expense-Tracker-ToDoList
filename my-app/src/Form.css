@@ -1,0 +1,24 @@
+.ToDoList{
+    display: flex;
+    justify-content: center;
+}
+
+.ToDoList button{
+    background-color: black;
+    color:white;
+    padding:0 0.1em ;
+    font-size: 1em;
+    margin-left: 0.4em;
+    height: 4.6vh;
+    
+}
+
+.ToDoList input{
+ height: 4vh;
+}
+
+ h1{
+  display: flex;
+  justify-content: center;
+  margin: 1em ;
+}

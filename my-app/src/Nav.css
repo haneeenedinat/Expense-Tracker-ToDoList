@@ -1,0 +1,42 @@
+
+.Nav{
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+.Nav ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.Nav ul li {
+    list-style-type: none;
+    font-weight: 600;
+}
+
+.Nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+.Nav img {
+    width: 8vw;
+}
+
+@media (max-width:700px) {
+    .Nav img {
+        width: 12vw;
+    }  
+}
+
+@media (max-width:425px) {
+    .Nav img {
+        width: 20vw;
+    } 
+
+    .Nav ul li a{
+       font-size: 0.7em;
+    }
+}
